@@ -1,0 +1,17 @@
+
+:root {
+  --placeholder-font: 'Lobster', cursive;
+  --h2-font: 'Rubik Dirt', cursive;
+}
+
+h2 {
+  font-family: var(--h2-font);
+}
+
+label {
+  font-weight:bold;
+}
+
+::placeholder {
+  font-family: var(--placeholder-font);
+}
